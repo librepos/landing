@@ -13,7 +13,7 @@ app.set("view engine", "pug")
 
 // Homepage routing
 app.get("/", (req, res) => {
-    res.render("index", {pageTitle: "Home"})
+    res.render("index", { pageTitle: "Home" })
 })
 
 // Listen

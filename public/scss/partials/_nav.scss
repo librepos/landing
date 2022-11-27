@@ -1,26 +1,40 @@
+//--- NAVBAR
+
 nav {
-    height: $h_nav;
+
+    // Sizing
     width: 100%;
-    background-color: $c_black-alt;
-    line-height: $h_nav;
+    height: $h_nav;
     padding: 0 16px;
 
+    // Theming
+    background-color: $c_black-alt;
+    line-height: $h_nav;
+
+    // Links
     a {
+
+        // Theming
         color: $c_white;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         text-decoration: none;
-        transition: 0.1s ease-in;
         font-size: $f_nav;
 
+        // Transition
+        transition: 0.1s ease-in;
+
+        // Hover
         &:hover {
             color: $c_accent;
 
+            // 'POS'
             span {
                 color: $c_white;
             }
         }
 
+        // 'POS'
         span {
             color: $c_accent;
             font-weight: 600;
